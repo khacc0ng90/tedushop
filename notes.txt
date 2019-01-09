@@ -1,0 +1,24 @@
+﻿http://www.igniteui.com/editors/date-and-time-formats
+[VF_ORDER_HEADER](
+ [ID] 
+ [STATUS]: trạng thái Pending,Complete
+ [VHI_ID] : ID của phương tiện để lấy BKS
+ [VTY_ID] : ID của loại phương tiện
+ [NO] [int] NOT NULL, Bỏ cũ
+ [ORDER_NUMBER] : số order
+ [WORK_SHOP] : nơi sửa chưa cho phép người dùng định nghĩa mới hoặc chọn lại nơi sửa chữa đã có
+ [LICENSE_PLATE] : Biển kiểm soát
+ [ODO_KM] : Số KM trên tablo
+ [ORDER_DATE] : Ngày giờ tạo 
+ [COMPLETE_DATE] : Ngày giờ hoàn thiện,
+ [TOTAL_DAY] : Số ngày & giờ sửa chữa,
+ [TOTAL_TIME] : Tổng số nhân công,
+ [TOTAL_TIME_AMOUNT] : Tổng tiền nhân công,
+ [TOTAL_ITEM_AMOUNT] : Tổng số tiền phụ tùng,
+ [TOTAL_AMOUNT] : Tổng số tiền,
+ [MAINTENANCE_TYPE] : 1 sửa nội bộ (nếu nơi sửa chữa là Xưởng cơ khí ICD TS, 2 sửa dịch vụ bên ngoài là khác Xưởng cơ khi ICD TS),
+ [DELETED] [bit] NOT NULL,
+ [CREATE_BY] [int] NULL,
+ [MODIFY_BY] [int] NULL,
+ [CREATE_DATE] [datetime] NULL,
+ [MODIFY_DATE] [datetime] NULL,
