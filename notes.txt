@@ -22,4 +22,5 @@
  [MODIFY_BY] [int] NULL,
  [CREATE_DATE] [datetime] NULL,
  [MODIFY_DATE] [datetime] 2019/01/09
+//thay doi 
  
